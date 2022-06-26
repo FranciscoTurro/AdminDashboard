@@ -7,77 +7,18 @@
   /* outline: 2px solid red; */
 }
 
+img {
+  max-width: 50px;
+}
+
 #container {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  height: 100vh;
 }
 
 #sidebar {
   grid-column: 1/2;
-  background-color: lightblue;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-}
-
-.options {
-  grid-row: 2/3;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.site-settings {
-  grid-row: 3/4;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-#header {
-  grid-column: 2/3;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-
-.search-container {
-  grid-column: 1/2;
-}
-
-.profile-link {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-#searchbar {
-  max-width: 70%;
-  max-height: 5%;
-}
-
-#main-content {
-  grid-column: 2/3;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.site-content {
-  grid-column: 1/2;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-
-#side-content {
-  grid-column: 2/3;
-}
-
-#announcements {
-  grid-column: 2/3;
-}
-
-#trending {
-  grid-column: 2/3;
-}
-
-img {
-  max-width: 100px;
+  grid-row: 1/3;
 }
