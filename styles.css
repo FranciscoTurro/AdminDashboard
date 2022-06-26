@@ -7,6 +7,14 @@
   /* outline: 2px solid red; */
 }
 
+:root {
+  --yellow: #ffd319;
+  --orange: #ff901f;
+  --strong-pink: #ff2975;
+  --purple: #f222ff;
+  --blue: #0161e8;
+}
+
 img {
   max-width: 50px;
 }
@@ -24,7 +32,7 @@ img {
   padding: 20px;
   grid-column: 1/2;
   grid-row: 1/3;
-  background-color: lightblue;
+  background-color: var(--blue);
 }
 
 .side-container {
@@ -35,6 +43,12 @@ img {
 
 .logo {
   grid-row: 1/2;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
 }
 
 .options {
@@ -52,6 +66,7 @@ img {
   gap: 1.3rem;
   cursor: pointer;
   font-size: 1.3rem;
+  color: white;
 }
 
 .sidebar-list {
