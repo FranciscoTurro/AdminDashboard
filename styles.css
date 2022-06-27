@@ -15,14 +15,10 @@
   --blue: #0161e8;
 }
 
-img {
-  max-width: 50px;
-}
-
 #container {
   display: grid;
-  grid-template-columns: 0.7fr 4fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 0.75fr 4fr;
+  grid-template-rows: 1.1fr 4fr;
   height: 100vh;
 }
 
@@ -41,12 +37,8 @@ img {
   gap: 3rem;
 }
 
-.logo {
-  grid-row: 1/2;
-}
-
 .logo-text {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 800;
   color: white;
   font-family: "Audiowide", sans-serif;
@@ -64,6 +56,7 @@ img {
 #sidebar li {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 1.3rem;
   cursor: pointer;
   font-size: 1.3rem;
@@ -83,14 +76,64 @@ img {
   padding-bottom: 2rem;
 }
 
-.logo p {
-  font-size: 2rem;
-}
-
 .logo-img {
   max-width: 5rem;
 }
 
 .menu-png {
   max-width: 2rem;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input[type="text"] {
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(216, 216, 216);
+  width: 75%;
+  height: 30%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+  gap: 5px;
+}
+
+.profile-link {
+}
+
+.profile-link img {
+  max-width: 10px;
+}
+
+.greeter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.username {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.greeter img {
+  width: 75px;
+  height: 75px;
+}
+
+.buttons {
+}
+
+#main-content {
+  background-color: grey;
 }
