@@ -18,7 +18,7 @@
 #container {
   display: grid;
   grid-template-columns: 0.75fr 4fr;
-  grid-template-rows: 1.1fr 4fr;
+  grid-template-rows: 1fr 4fr;
   height: 100vh;
 }
 
@@ -178,6 +178,18 @@ button {
   background-color: var(--purple);
   color: white;
   font-size: 1rem;
+}
+
+.btn1 {
+  background-color: var(--yellow);
+}
+
+.btn2 {
+  background-color: var(--orange);
+}
+
+.btn3 {
+  background-color: var(--strong-pink);
 }
 
 #main-content {
