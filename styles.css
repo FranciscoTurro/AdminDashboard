@@ -240,8 +240,10 @@ button {
   margin: 5rem;
   margin-left: 0;
   background-color: white;
-  width: 400px;
+  width: 350px;
   height: fit-content;
+  font-size: 0.9rem;
+  border-radius: 25px;
 }
 
 .announcement {
@@ -256,11 +258,13 @@ button {
 .title-2 {
   position: absolute;
   top: 185px;
-  right: 290px;
+  right: 250px;
 }
 
 .title-3 {
   position: absolute;
+  right: 320px;
+  bottom: 180px;
 }
 
 img {
@@ -271,9 +275,17 @@ img {
   grid-column: 3/4;
   grid-row: 3/4;
   background-color: white;
-  width: 400px;
+  width: 350px;
   height: fit-content;
   margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.trending-content {
+  display: flex;
+  cursor: pointer;
+  margin: 30px;
+  gap: 15px;
 }
 
 /* background: linear-gradient(
