@@ -197,7 +197,6 @@ button {
   background-color: #e7e5e4;
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
 }
 
 .projects {
@@ -237,12 +236,44 @@ button {
 
 #announcements {
   grid-column: 3/4;
-  grid-row: 1/3;
+  grid-row: 1/2;
+  margin: 5rem;
+  margin-left: 0;
+  background-color: white;
+  width: 400px;
+  height: fit-content;
+}
+
+.announcement {
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.anoun-title {
+  font-weight: 900;
+}
+
+.title-2 {
+  position: absolute;
+  top: 185px;
+  right: 290px;
+}
+
+.title-3 {
+  position: absolute;
+}
+
+img {
+  max-width: 50px;
 }
 
 #trending {
-  grid-row: 3/4;
   grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: white;
+  width: 400px;
+  height: fit-content;
+  margin-bottom: 20px;
 }
 
 /* background: linear-gradient(
